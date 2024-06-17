@@ -6,4 +6,3 @@ class Solution:
             if difference in prevMap:
                 return [prevMap[difference], index]
             prevMap[number] = index
-        return
